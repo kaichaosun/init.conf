@@ -21,5 +21,6 @@ brew install tmux
 <prefix> 2: Switch to window 2 (etc.)
 <prefix> x: Kill current window
 <prefix> d: Detach tmux (exit back to normal terminal)
+<prefix> [: Use normal navigation keys to scroll,`q` to quit scroll mode
 ```
  
