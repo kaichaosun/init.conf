@@ -6,30 +6,30 @@ brew install tmux
 ```
 
 ## Very basic command
-* tmux
-* tmux ls
-* tmux a -t <session-name>
+* tmux new -s <seesion-name>: create a new session
+* tmux ls: list sessions
+* tmux a -t <session-name>: attach to a session
 
 ## Prefix
 `ctrl + b`, I have customised by `ctrl + t`
 
 ## Window management
 ```
-<prefix> c: Create a new window (appears in status bar)
-<prefix> 0: Switch to window 0
-<prefix> 1: Switch to window 1
-<prefix> 2: Switch to window 2 (etc.)
-<prefix> x: Kill current window
+<prefix> c: create a new window (appears in status bar)
+<prefix> 0: switch to window 0
+<prefix> 1: switch to window 1
+<prefix> 2: switch to window 2 (etc.)
+<prefix> n: switch to next window
+<prefix> x: kill current window
 <prefix> ,: rename window
-<prefix> d: Detach tmux (exit back to normal terminal)
-<prefix> [: Use normal navigation keys to scroll,`q` to quit scroll mode
+<prefix> [: use normal navigation keys to scroll,`q` to quit scroll mode
 ```
 
 ## Session management
-* tmux new -s <seesion-name>
-* tmux attach -t <session-name>
-* tmux switch -t <session-name>
-* tmux list-sessions (or ls)
+```
+<prefix> s: switch session
+<prefix> d: detach tmux (exit back to normal terminal)
+```
 
 ## Panes
 ```
@@ -46,4 +46,5 @@ brew install tmux
 * tmux source-file ~/.tmux.conf: reload the tmux cofig (I have customised to be: <prefix> r)
 
 ## Other resources
-[1] https://robots.thoughtbot.com/a-tmux-crash-course
+[1] https://tmuxp.git-pull.com/en/latest/about_tmux.html
+[2] https://robots.thoughtbot.com/a-tmux-crash-course
