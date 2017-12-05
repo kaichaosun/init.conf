@@ -6,6 +6,7 @@ brew install tmux
 ```
 
 ## Very basic command
+* tmux -V: show version
 * tmux new -s <seesion-name>: create a new session
 * tmux ls: list sessions
 * tmux a -t <session-name>: attach to a session
@@ -37,6 +38,13 @@ brew install tmux
 <prefix> %: Split the window into 2 horizontal panes
 <prefix> { or }: Swap the panes
 <prefix> q, then <pane-index>: Select pane (I have customised to be: <prefix> ^n)
+```
+
+## Copy & paste
+Use it like you are in vim.
+```
+bind-key -Tcopy-mode-vi 'v' send -X begin-selection
+bind-key -Tcopy-mode-vi 'y' send -X copy-pipe-and-cancel pbcopy
 ```
 
 ## Helpful commands
