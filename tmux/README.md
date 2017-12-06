@@ -41,11 +41,14 @@ brew install tmux
 ```
 
 ## Copy & paste
-Use it like you are in vim.
+Use it like you are in vim:
 ```
 bind-key -Tcopy-mode-vi 'v' send -X begin-selection
 bind-key -Tcopy-mode-vi 'y' send -X copy-pipe-and-cancel pbcopy
 ```
+
+Copy with mouse, `Option <mouse-selection>`:
+`set-option -g mouse on`
 
 ## Helpful commands
 * tmux list-keys: list out every bound key and the tmux command it runs
