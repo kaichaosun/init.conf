@@ -5,6 +5,11 @@
 brew install tmux
 ```
 
+## Create soft link
+```
+ln -s <directory>/.tmux.conf ~/.tmux.conf
+```
+
 ## Very basic command
 * tmux -V: show version
 * tmux new -s <seesion-name>: create a new session
