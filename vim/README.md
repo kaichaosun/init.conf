@@ -170,3 +170,8 @@ Now go on to the next lesson.
      Press <TAB> to use one completion.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## Theme
+```
+ln -s <path-to-dotvim>/init.conf/vim/.vim ~/.vim
+```

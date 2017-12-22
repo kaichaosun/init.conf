@@ -3,8 +3,11 @@ filetype on
 syntax on
 colorscheme Tomorrow-Night
 
+" vim-pathogen: manage runtimpath
+
 " number
 set number
+set relativenumber " show relatvie line numbers
 highlight LineNr ctermfg=grey
 
 " background
@@ -24,3 +27,6 @@ set guifont=Hack:h25
 
 " Map jk to esc
 inoremap jk <ESC>
+
+" share clipboard
+set clipboard=unnamed
