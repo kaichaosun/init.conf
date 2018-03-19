@@ -61,6 +61,9 @@ Copy with mouse, `Option <mouse-selection>`:
 * tmux info: list out every session, windwo, pane, its pid, etc
 * tmux source-file ~/.tmux.conf: reload the tmux cofig (I have customised to be: <prefix> r)
 
+## Plugins
+[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum): Auto save and start
+
 ## Other resources
-[1] https://tmuxp.git-pull.com/en/latest/about_tmux.html
+[1] https://tmuxp.git-pull.com/en/latest/about_tmux.html  
 [2] https://robots.thoughtbot.com/a-tmux-crash-course

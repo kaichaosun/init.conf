@@ -175,3 +175,18 @@ Now go on to the next lesson.
 ```
 ln -s <path-to-dotvim>/init.conf/vim/.vim ~/.vim
 ```
+
+## Paging
+1.full page:
+ctrl-f: page forward
+ctrl-b: page backword
+
+2.half page:
+ctrl-d: half page forward
+ctrl-u: half page backward
+
+3.cursor in screen
+H: top of screen
+M: middle of screen
+L: bottom of screen
+
