@@ -190,3 +190,11 @@ H: top of screen
 M: middle of screen
 L: bottom of screen
 
+## Plugins
+
+### Plugin management
+* pathogen: https://github.com/tpope/vim-pathogen
+* [emmet-vim](https://github.com/mattn/emmet-vim/): https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL 
+
+
+

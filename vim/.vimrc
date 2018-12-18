@@ -4,6 +4,7 @@ syntax on
 colorscheme Tomorrow-Night
 
 " vim-pathogen: manage runtimpath
+execute pathogen#infect()
 
 " number
 set number
@@ -70,3 +71,6 @@ nnoremap ^ <nop>
 
 " highlight last inserted text
 nnoremap gV `[v`]
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
