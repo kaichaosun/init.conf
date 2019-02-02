@@ -1,7 +1,7 @@
 " set theme
 filetype on
 syntax on
-colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night-Eighties
 
 " vim-pathogen: manage runtimpath
 execute pathogen#infect()
@@ -12,7 +12,7 @@ set cursorline          " highlight current line
 highlight LineNr ctermfg=grey
 
 " background
-highlight normal ctermfg=yellow ctermbg=lightgrey
+highlight Normal ctermfg=yellow ctermbg=black
 
 " enable delete
 set backspace=indent,eol,start
