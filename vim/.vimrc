@@ -74,3 +74,4 @@ nnoremap gV `[v`]
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
+
