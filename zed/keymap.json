@@ -1,0 +1,7 @@
+[
+  {
+    "bindings": {
+      "cmd-e": "file_finder::Toggle"
+    }
+  }
+]
