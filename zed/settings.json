@@ -7,6 +7,23 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4",
+    },
+    "model_parameters": [],
+  },
+  "languages": {
+    "HTML": {
+      "format_on_save": "off",
+    },
+    "CSS": {
+      "tab_size": 2,
+    },
+  },
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "buffer_font_family": "Menlo",
   "base_keymap": "JetBrains",
   "theme": "One Dark",
   "telemetry": {
